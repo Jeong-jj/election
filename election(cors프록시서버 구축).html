@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전국 투표소 정보</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box }
+        ul { list-style:none}
+        #content { max-width:1000px; margin:0 auto }
+        .tabTit li { display:inline-block;
+            border: 1px solid #000;
+            background: #555; color: #fff;
+            padding: 5px;
+            margin: 10px 5px 10px 0;}
+        .placeList li {margin-bottom: 20px;}
+        .loading {height: 500px; font-size: 50px; color: blue;
+            display: flex; justify-content: center; align-items: center;}
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    
+    <div id="content">
+        <h2>대통령 선거 시도별 투표소 확인하기</h2>
+        <ul class="tabTit">
+            <li>서울특별시</li>
+            <li>경기도</li>
+            <li>제주특별자치도</li>
+        </ul>
+        <!-- <ul class="placeList">
+            <li>
+                <p>투표소기관명</p>
+                <p>투표소주소</p>
+            </li>
+        </ul> -->
+
+        <!-- <div class="loading">로딩중</div> -->
+    </div>
+
+    <script src="./js/election(cors프록시서버 구축).js"></script>
+
+</body>
+</html>
